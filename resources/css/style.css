@@ -1,1 +1,110 @@
 /* STYLESHEET FOR TortoiseshellOptics/index */
+
+/*  --- global & elements --- */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h4 {
+  background-color: cadetblue;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+
+/*  --- banner --- */
+nav {
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.banner {
+  background-image: url("../glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.headline {
+  display: flex;
+  justify-content: flex-end;
+  margin: 9rem auto;
+}
+
+.headline-box {
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+
+/*  --- services --- */
+.picbox {
+  background-color: green; /* TEMP */
+  height: 8rem;
+  margin: 3rem;
+  width: 5rem;
+}
+
+.picbox img {
+  background-color: blue; /* TEMP */
+}
+
+.services .container {
+  background-color: pink;  /* TEMP */
+  display: flex;
+  justify-content: center;
+}
+
+
+/*  --- info --- */
+.info .container {
+  background-color: yellow; /* TEMP */
+  display: flex;
+  justify-content: center;
+}
+
+.infobox {
+  background-color: gray; /* TEMP */
+  margin: 0 5%;
+  width: 35%;
+}
+
+
+/*  --- footer --- */
+footer {
+  background-color: azure;
+}
+
+/*  tablet (1024px) response */
+/*@media only screen and ()*/
+
+
+/* phone (470px) response */
